@@ -1,0 +1,34 @@
+    body {
+        margin: 0cm;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .cover {
+        height: 400px;
+        background-image: url(images/foto1.jpg);
+        color: white;
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+    
+    .card {
+        border: 0!important;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        ;
+    }
+    
+    .footer {
+        background: #404042;
+        color: white;
+        padding: 10px 0px;
+    }
+    
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
